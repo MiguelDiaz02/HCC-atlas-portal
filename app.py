@@ -38,26 +38,26 @@ from dash.exceptions import PreventUpdate
 DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
 
 CELL_TYPE_COLORS = {
-    "Hepatocytes":      "#8DD3C7",
-    "Cholangiocytes":   "#FFFFB3",
-    "TAMs":             "#FB8072",
-    "TECs":             "#80B1D3",
-    "Macrophages":      "#BEBADA",
-    "T cells":          "#FDB462",
-    "NK cells":         "#B3DE69",
-    "NK-TR-CD160":      "#CCEBC5",
-    "B cells":          "#FCCDE5",
-    "Plasma cells":     "#F7B6D2",
-    "Endothelial cells":"#D9D9D9",
-    "Fibroblasts":      "#BC80BD",
-    "CAF":              "#FFED6F",
-    "Malignant_cells":  "#E41A1C",
-    "Monocytes":        "#A65628",
-    "Neutrophils":      "#FF7F00",
-    "Basophils":        "#984EA3",
-    "pDCs":             "#4DAF4A",
-    "cDCs":             "#377EB8",
-    "Unclassified":     "#AAAAAA",
+    # Matched to manuscript Fig3C palette
+    "Hepatocytes":       "#E41A1C",   # bright red
+    "TAMs":              "#984EA3",   # purple
+    "T cells":           "#1B7837",   # dark green
+    "Malignant_cells":   "#00BCD4",   # cyan
+    "TECs":              "#B8E186",   # lime green
+    "B cells":           "#E91E8C",   # magenta
+    "Plasma cells":      "#F9A8D4",   # light pink
+    "NK cells":          "#FF7F00",   # orange
+    "Neutrophils":       "#A65628",   # brown
+    "Cholangiocytes":    "#8B8000",   # dark yellow/olive
+    "Endothelial cells": "#3182BD",   # medium blue
+    "Macrophages":       "#6BAED6",   # light blue
+    "NK-TR-CD160":       "#41B6C4",   # teal
+    "Monocytes":         "#D6B656",   # tan/gold
+    "cDCs":              "#08519C",   # dark blue
+    "CAF":               "#9E9AC8",   # lavender
+    "Fibroblasts":       "#54278F",   # dark purple
+    "Basophils":         "#7B2D00",   # dark maroon
+    "pDCs":              "#BDBDBD",   # light gray
 }
 
 CONDITION_COLORS = {

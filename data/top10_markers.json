@@ -1053,68 +1053,6 @@
       "pval_adj": 0.0
     }
   ],
-  "Unclassified": [
-    {
-      "gene": "H3F3A",
-      "score": 99.91,
-      "logFC": 11.85,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPS17",
-      "score": 99.47,
-      "logFC": 16.04,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPL39",
-      "score": 99.0,
-      "logFC": 30.45,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPL26",
-      "score": 97.85,
-      "logFC": 22.82,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "MTRNR2L8",
-      "score": 97.4,
-      "logFC": 7.57,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPS15A",
-      "score": 92.63,
-      "logFC": 21.49,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "NBEAL1",
-      "score": 92.03,
-      "logFC": 6.98,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPL10",
-      "score": 90.61,
-      "logFC": 41.7,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPS24",
-      "score": 89.43,
-      "logFC": 20.89,
-      "pval_adj": 0.0
-    },
-    {
-      "gene": "RPL34",
-      "score": 88.36,
-      "logFC": 28.33,
-      "pval_adj": 0.0
-    }
-  ],
   "cDCs": [
     {
       "gene": "CD74",
