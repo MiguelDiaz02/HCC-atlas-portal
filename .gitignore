@@ -1,0 +1,16 @@
+# Raw h5ad — demasiado grande, nunca en git
+*.h5ad
+*.h5
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db

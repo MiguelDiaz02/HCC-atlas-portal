@@ -1,0 +1,1242 @@
+{
+  "B cells": [
+    {
+      "gene": "IGKC",
+      "score": 64.25,
+      "logFC": 299.6,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IGHM",
+      "score": 56.87,
+      "logFC": 168.01,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MALAT1",
+      "score": 51.17,
+      "logFC": 152.59,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD79A",
+      "score": 49.52,
+      "logFC": 7.81,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "JCHAIN",
+      "score": 47.89,
+      "logFC": 35.18,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MZB1",
+      "score": 46.03,
+      "logFC": 15.07,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IGHA1",
+      "score": 45.08,
+      "logFC": 148.62,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RACK1",
+      "score": 43.96,
+      "logFC": 4.15,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD52",
+      "score": 42.84,
+      "logFC": 11.54,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD74",
+      "score": 42.71,
+      "logFC": -1.72,
+      "pval_adj": 0.0
+    }
+  ],
+  "Basophils": [
+    {
+      "gene": "SRGN",
+      "score": 19.75,
+      "logFC": 25.23,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RGS2",
+      "score": 19.35,
+      "logFC": 15.52,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ALOX5AP",
+      "score": 17.04,
+      "logFC": 4.87,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TPSAB1",
+      "score": 16.19,
+      "logFC": 102.07,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RGS1",
+      "score": 15.89,
+      "logFC": 19.03,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CPA3",
+      "score": 15.83,
+      "logFC": 50.6,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A6",
+      "score": 15.83,
+      "logFC": 3.97,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A4",
+      "score": 15.81,
+      "logFC": 5.52,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ARHGDIB",
+      "score": 15.79,
+      "logFC": 4.17,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TPSB2",
+      "score": 15.66,
+      "logFC": 165.88,
+      "pval_adj": 0.0
+    }
+  ],
+  "CAF": [
+    {
+      "gene": "IGFBP7",
+      "score": 38.66,
+      "logFC": 66.98,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CALD1",
+      "score": 38.2,
+      "logFC": 16.51,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ACTA2",
+      "score": 37.08,
+      "logFC": 71.13,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MYL9",
+      "score": 36.97,
+      "logFC": 31.21,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TPM1",
+      "score": 36.48,
+      "logFC": 14.52,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TAGLN",
+      "score": 36.11,
+      "logFC": 59.21,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TPM2",
+      "score": 36.1,
+      "logFC": 19.44,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "SPARCL1",
+      "score": 34.06,
+      "logFC": 23.26,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MYLK",
+      "score": 33.41,
+      "logFC": 11.78,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "C11orf96",
+      "score": 33.28,
+      "logFC": 20.94,
+      "pval_adj": 0.0
+    }
+  ],
+  "Cholangiocytes": [
+    {
+      "gene": "BTG1",
+      "score": 49.69,
+      "logFC": 8.78,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CMC1",
+      "score": 46.01,
+      "logFC": 9.02,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRB1",
+      "score": 45.54,
+      "logFC": 9.4,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "NKG7",
+      "score": 44.66,
+      "logFC": 8.65,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD7",
+      "score": 43.25,
+      "logFC": 6.61,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "EEF1A1",
+      "score": 43.17,
+      "logFC": 12.54,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRD1",
+      "score": 41.87,
+      "logFC": 5.47,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL3",
+      "score": 41.53,
+      "logFC": 7.03,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS15A",
+      "score": 41.46,
+      "logFC": 8.19,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GSTP1",
+      "score": 40.08,
+      "logFC": 4.47,
+      "pval_adj": 0.0
+    }
+  ],
+  "Endothelial cells": [
+    {
+      "gene": "RPS17",
+      "score": 37.04,
+      "logFC": 3.23,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS15A",
+      "score": 33.46,
+      "logFC": 6.01,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL26",
+      "score": 31.95,
+      "logFC": 3.23,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL10",
+      "score": 30.24,
+      "logFC": 5.46,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL41",
+      "score": 29.46,
+      "logFC": 2.73,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL28",
+      "score": 29.37,
+      "logFC": 4.11,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IL32",
+      "score": 29.31,
+      "logFC": 3.0,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MALAT1",
+      "score": 29.31,
+      "logFC": 51.95,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "BTG1",
+      "score": 28.71,
+      "logFC": 3.27,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL10A",
+      "score": 28.28,
+      "logFC": 2.19,
+      "pval_adj": 0.0
+    }
+  ],
+  "Fibroblasts": [
+    {
+      "gene": "NKG7",
+      "score": 32.87,
+      "logFC": 15.06,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRD1",
+      "score": 28.51,
+      "logFC": 6.0,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GZMA",
+      "score": 27.99,
+      "logFC": 5.15,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CTSW",
+      "score": 27.74,
+      "logFC": 5.31,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CST7",
+      "score": 27.62,
+      "logFC": 5.2,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD7",
+      "score": 27.12,
+      "logFC": 5.31,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS17",
+      "score": 27.08,
+      "logFC": 4.35,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRB1",
+      "score": 26.43,
+      "logFC": 7.5,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CMC1",
+      "score": 25.52,
+      "logFC": 5.55,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "PRF1",
+      "score": 25.33,
+      "logFC": 6.59,
+      "pval_adj": 0.0
+    }
+  ],
+  "Hepatocytes": [
+    {
+      "gene": "HP",
+      "score": 196.27,
+      "logFC": 33.97,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "APOA1",
+      "score": 191.77,
+      "logFC": 19.11,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ALB",
+      "score": 190.98,
+      "logFC": 9.98,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "APOC3",
+      "score": 178.38,
+      "logFC": 3.19,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "VTN",
+      "score": 176.04,
+      "logFC": 5.12,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ORM1",
+      "score": 169.26,
+      "logFC": 26.74,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "C3",
+      "score": 162.06,
+      "logFC": 2.15,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "AMBP",
+      "score": 159.88,
+      "logFC": 2.03,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TF",
+      "score": 157.28,
+      "logFC": -2.33,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "SERPINA1",
+      "score": 156.61,
+      "logFC": 15.24,
+      "pval_adj": 0.0
+    }
+  ],
+  "Macrophages": [
+    {
+      "gene": "TIMP1",
+      "score": 41.17,
+      "logFC": 13.09,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS17",
+      "score": 38.32,
+      "logFC": 6.88,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MTRNR2L8",
+      "score": 37.11,
+      "logFC": 6.06,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "H3F3A",
+      "score": 36.42,
+      "logFC": 4.02,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GNG11",
+      "score": 35.11,
+      "logFC": 5.89,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TM4SF1",
+      "score": 34.91,
+      "logFC": 8.13,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "PTPRB",
+      "score": 34.32,
+      "logFC": 4.89,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IFI27",
+      "score": 34.22,
+      "logFC": 8.31,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "DNASE1L3",
+      "score": 33.46,
+      "logFC": 9.04,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IGFBP7",
+      "score": 32.81,
+      "logFC": 8.91,
+      "pval_adj": 0.0
+    }
+  ],
+  "Malignant_cells": [
+    {
+      "gene": "CYB5A",
+      "score": 122.88,
+      "logFC": 22.44,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "PEBP1",
+      "score": 121.17,
+      "logFC": 18.65,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GC",
+      "score": 119.82,
+      "logFC": 37.54,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "AGT",
+      "score": 119.18,
+      "logFC": 14.96,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TM4SF4",
+      "score": 119.17,
+      "logFC": 13.72,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RARRES2",
+      "score": 117.72,
+      "logFC": 17.76,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MPC2",
+      "score": 116.73,
+      "logFC": 13.68,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RBP4",
+      "score": 116.35,
+      "logFC": 85.46,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "EPHX1",
+      "score": 115.87,
+      "logFC": 21.96,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "APOH",
+      "score": 114.47,
+      "logFC": 52.55,
+      "pval_adj": 0.0
+    }
+  ],
+  "Monocytes": [
+    {
+      "gene": "HLA-DRA",
+      "score": 33.21,
+      "logFC": 37.83,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "SAT1",
+      "score": 33.2,
+      "logFC": 28.6,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A4",
+      "score": 32.59,
+      "logFC": 20.42,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "FTH1",
+      "score": 32.42,
+      "logFC": 83.22,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CTSS",
+      "score": 32.02,
+      "logFC": 13.9,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "BCL2A1",
+      "score": 31.55,
+      "logFC": 8.43,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HSPA1A",
+      "score": 31.45,
+      "logFC": 33.45,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD74",
+      "score": 31.3,
+      "logFC": 33.37,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HSP90AA1",
+      "score": 31.19,
+      "logFC": 28.8,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "DNAJB1",
+      "score": 31.18,
+      "logFC": 19.11,
+      "pval_adj": 0.0
+    }
+  ],
+  "NK cells": [
+    {
+      "gene": "NKG7",
+      "score": 56.96,
+      "logFC": 14.55,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CST7",
+      "score": 50.97,
+      "logFC": 6.38,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IFITM2",
+      "score": 48.67,
+      "logFC": 8.01,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CCL5",
+      "score": 48.58,
+      "logFC": 23.46,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "PFN1",
+      "score": 45.9,
+      "logFC": 9.05,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CCL4",
+      "score": 45.74,
+      "logFC": 19.27,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRD1",
+      "score": 45.33,
+      "logFC": 5.22,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TXNIP",
+      "score": 44.07,
+      "logFC": 7.23,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "BTG1",
+      "score": 43.99,
+      "logFC": 5.89,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GZMA",
+      "score": 43.96,
+      "logFC": 5.05,
+      "pval_adj": 0.0
+    }
+  ],
+  "NK-TR-CD160": [
+    {
+      "gene": "NKG7",
+      "score": 59.58,
+      "logFC": 17.19,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRD1",
+      "score": 54.67,
+      "logFC": 7.65,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CMC1",
+      "score": 54.38,
+      "logFC": 8.6,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD7",
+      "score": 54.36,
+      "logFC": 7.26,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD69",
+      "score": 53.98,
+      "logFC": 24.45,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "KLRB1",
+      "score": 53.25,
+      "logFC": 7.86,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CCL4",
+      "score": 51.71,
+      "logFC": 51.07,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IFITM2",
+      "score": 51.44,
+      "logFC": 13.22,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GZMA",
+      "score": 49.57,
+      "logFC": 6.5,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD160",
+      "score": 49.53,
+      "logFC": 7.21,
+      "pval_adj": 0.0
+    }
+  ],
+  "Neutrophils": [
+    {
+      "gene": "S100A9",
+      "score": 70.63,
+      "logFC": 133.41,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A8",
+      "score": 70.43,
+      "logFC": 113.91,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MNDA",
+      "score": 65.9,
+      "logFC": 12.26,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "FPR1",
+      "score": 65.75,
+      "logFC": 10.6,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A12",
+      "score": 63.13,
+      "logFC": 19.71,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A4",
+      "score": 61.09,
+      "logFC": 22.73,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "FCN1",
+      "score": 60.78,
+      "logFC": 17.24,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A6",
+      "score": 60.17,
+      "logFC": 15.72,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CTSS",
+      "score": 59.78,
+      "logFC": 19.74,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RGS2",
+      "score": 58.54,
+      "logFC": 19.06,
+      "pval_adj": 0.0
+    }
+  ],
+  "Plasma cells": [
+    {
+      "gene": "NEAT1",
+      "score": 53.5,
+      "logFC": 27.78,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CYP3A5",
+      "score": 38.93,
+      "logFC": 5.4,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MLXIPL",
+      "score": 35.8,
+      "logFC": 3.93,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MT2A",
+      "score": 33.75,
+      "logFC": 20.13,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "NNMT",
+      "score": 33.45,
+      "logFC": 7.28,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CRP",
+      "score": 32.49,
+      "logFC": 20.22,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ITIH3",
+      "score": 30.75,
+      "logFC": 4.3,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "SAA1",
+      "score": 30.49,
+      "logFC": 353.28,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ACSM2A",
+      "score": 29.55,
+      "logFC": 3.73,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MST1",
+      "score": 29.13,
+      "logFC": 3.37,
+      "pval_adj": 0.0
+    }
+  ],
+  "T cells": [
+    {
+      "gene": "CD3D",
+      "score": 86.74,
+      "logFC": 5.79,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IL7R",
+      "score": 85.41,
+      "logFC": 7.44,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CCL5",
+      "score": 83.89,
+      "logFC": 15.84,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "BTG1",
+      "score": 83.71,
+      "logFC": 6.28,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IL32",
+      "score": 82.88,
+      "logFC": 3.84,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD69",
+      "score": 81.73,
+      "logFC": 6.93,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TRBC2",
+      "score": 80.29,
+      "logFC": 6.17,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TRAC",
+      "score": 78.3,
+      "logFC": 5.59,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD3E",
+      "score": 76.75,
+      "logFC": 4.66,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "S100A4",
+      "score": 72.47,
+      "logFC": 3.85,
+      "pval_adj": 0.0
+    }
+  ],
+  "TAMs": [
+    {
+      "gene": "HLA-DRA",
+      "score": 159.92,
+      "logFC": 104.36,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CD74",
+      "score": 158.63,
+      "logFC": 155.22,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DPA1",
+      "score": 154.71,
+      "logFC": 32.57,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DRB1",
+      "score": 153.9,
+      "logFC": 45.64,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CST3",
+      "score": 153.01,
+      "logFC": 92.34,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DPB1",
+      "score": 150.93,
+      "logFC": 36.74,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TYROBP",
+      "score": 147.48,
+      "logFC": 28.81,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "AIF1",
+      "score": 146.15,
+      "logFC": 14.13,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DQA1",
+      "score": 145.93,
+      "logFC": 15.04,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CTSS",
+      "score": 143.78,
+      "logFC": 17.87,
+      "pval_adj": 0.0
+    }
+  ],
+  "TECs": [
+    {
+      "gene": "IGFBP7",
+      "score": 112.25,
+      "logFC": 22.27,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "SPARC",
+      "score": 100.2,
+      "logFC": 11.39,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "IFI27",
+      "score": 97.74,
+      "logFC": 10.94,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "COL4A1",
+      "score": 92.1,
+      "logFC": 9.13,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "GNG11",
+      "score": 89.31,
+      "logFC": 8.76,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "FLT1",
+      "score": 89.07,
+      "logFC": 7.36,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "CALCRL",
+      "score": 89.03,
+      "logFC": 7.19,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TIMP3",
+      "score": 87.79,
+      "logFC": 6.59,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TGFBR2",
+      "score": 87.05,
+      "logFC": 6.06,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ENG",
+      "score": 86.44,
+      "logFC": 6.95,
+      "pval_adj": 0.0
+    }
+  ],
+  "Unclassified": [
+    {
+      "gene": "H3F3A",
+      "score": 99.91,
+      "logFC": 11.85,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS17",
+      "score": 99.47,
+      "logFC": 16.04,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL39",
+      "score": 99.0,
+      "logFC": 30.45,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL26",
+      "score": 97.85,
+      "logFC": 22.82,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "MTRNR2L8",
+      "score": 97.4,
+      "logFC": 7.57,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS15A",
+      "score": 92.63,
+      "logFC": 21.49,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "NBEAL1",
+      "score": 92.03,
+      "logFC": 6.98,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL10",
+      "score": 90.61,
+      "logFC": 41.7,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS24",
+      "score": 89.43,
+      "logFC": 20.89,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL34",
+      "score": 88.36,
+      "logFC": 28.33,
+      "pval_adj": 0.0
+    }
+  ],
+  "cDCs": [
+    {
+      "gene": "CD74",
+      "score": 47.05,
+      "logFC": 322.76,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DPB1",
+      "score": 45.45,
+      "logFC": 66.61,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "SNX3",
+      "score": 45.08,
+      "logFC": 19.71,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DQB1",
+      "score": 44.85,
+      "logFC": 24.46,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DRB1",
+      "score": 44.53,
+      "logFC": 66.79,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "TMSB4X",
+      "score": 44.47,
+      "logFC": 189.15,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DPA1",
+      "score": 44.08,
+      "logFC": 47.25,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "ACTB",
+      "score": 44.01,
+      "logFC": 107.57,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DRA",
+      "score": 43.96,
+      "logFC": 121.82,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "HLA-DQA1",
+      "score": 43.05,
+      "logFC": 18.77,
+      "pval_adj": 0.0
+    }
+  ],
+  "pDCs": [
+    {
+      "gene": "RPS15A",
+      "score": 11.84,
+      "logFC": 21.12,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL10",
+      "score": 11.6,
+      "logFC": 29.74,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL41",
+      "score": 11.47,
+      "logFC": 27.8,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS12",
+      "score": 11.39,
+      "logFC": 28.2,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL10A",
+      "score": 11.26,
+      "logFC": 9.9,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "EEF1A1",
+      "score": 11.22,
+      "logFC": 30.82,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPSA",
+      "score": 11.14,
+      "logFC": 9.24,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPL3",
+      "score": 11.1,
+      "logFC": 15.72,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS25",
+      "score": 11.05,
+      "logFC": 14.23,
+      "pval_adj": 0.0
+    },
+    {
+      "gene": "RPS4X",
+      "score": 10.98,
+      "logFC": 13.7,
+      "pval_adj": 0.0
+    }
+  ]
+}
