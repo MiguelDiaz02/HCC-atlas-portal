@@ -2,11 +2,9 @@ services:
   - type: web
     name: hcc-atlas-portal
     runtime: python
-    buildCommand: pip install -r requirements.txt
+    pythonVersion: 3.11.0
+    buildCommand: pip install --only-binary :all: -r requirements.txt
     startCommand: gunicorn app:server --bind 0.0.0.0:$PORT --workers 1 --timeout 120
-    envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
     disk:
       name: portal-data
       mountPath: /opt/render/project/src/data
