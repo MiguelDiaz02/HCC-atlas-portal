@@ -131,16 +131,25 @@ def build_umap_figure(df, color_by="Cell Type", gene=None):
             hovertemplate=hover,
         ))
     elif color_by == "Condition":
+        # Filter palette to only conditions in this dataframe
+        cond_palette = {c: CONDITION_COLORS.get(c, "#999999") for c in df["Condition"].unique()}
         fig = px.scatter(
             df, x="UMAP_1", y="UMAP_2",
             color="Condition",
-            color_discrete_map=CONDITION_COLORS,
+            color_discrete_map=cond_palette,
             custom_data=["CellType_harmonized", "Condition", "Patient", "n_genes"],
             opacity=0.7,
         )
         fig.update_traces(marker_size=3, hovertemplate=hover)
     else:  # Cell Type (default)
-        palette = {ct: CELL_TYPE_COLORS.get(ct, "#999999") for ct in df["CellType_harmonized"].unique()}
+        # Build palette only for cell types present in this dataframe
+        unique_cts = sorted(df["CellType_harmonized"].dropna().unique())
+        palette = {ct: CELL_TYPE_COLORS.get(ct, "#999999") for ct in unique_cts}
+
+        if not palette:  # No data
+            return go.Figure().update_layout(template="plotly_white",
+                annotations=[{"text": "No data to display.", "showarrow": False}])
+
         fig = px.scatter(
             df, x="UMAP_1", y="UMAP_2",
             color="CellType_harmonized",
