@@ -1,7 +1,8 @@
+setuptools>=65.0
+wheel
 dash==2.14.2
 dash-bootstrap-components==1.4.2
 plotly==5.18.0
 pandas==1.5.3
 numpy==1.24.3
-scipy==1.11.4
 gunicorn==21.2.0
