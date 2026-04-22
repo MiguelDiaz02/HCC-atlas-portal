@@ -106,6 +106,12 @@ def build_umap_figure(df, color_by="Cell Type", gene=None):
                           "showarrow": False, "font": {"size": 16}}],
         )
 
+    # Clean data: strip whitespace, reset index
+    df = df.copy()
+    df["CellType_harmonized"] = df["CellType_harmonized"].astype(str).str.strip()
+    df["Condition"] = df["Condition"].astype(str).str.strip()
+    df = df.reset_index(drop=True)
+
     hover = (
         "<b>%{customdata[0]}</b><br>"
         "Condition: %{customdata[1]}<br>"
