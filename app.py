@@ -277,7 +277,7 @@ sidebar = dbc.Card([
         dcc.Dropdown(
             id="ct-filter",
             options=[{"label": ct, "value": ct} for ct in ALL_CELL_TYPES],
-            value=None,
+            value=ALL_CELL_TYPES,
             multi=True,
             placeholder="All cell types…",
             clearable=True,
@@ -395,7 +395,7 @@ dash_app.layout = dbc.Container([
             html.H4("HCC Single-Cell Transcriptomic Atlas",
                     className="mb-0 text-white fw-bold"),
             html.P(
-                "Díaz-Campos & Hernández-Lemus · INMEGEN, México · IJMS 2025",
+                "Díaz-Campos & Hernández-Lemus · INMEGEN, México",
                 className="mb-0 text-white-50 small",
             ),
         ], width=9),
@@ -423,7 +423,7 @@ dash_app.layout = dbc.Container([
              html.A("github.com/MiguelDiaz02/scRNAseq_a_pipeline_for_HCC",
                     href="https://github.com/MiguelDiaz02/scRNAseq_a_pipeline_for_HCC",
                     target="_blank"),
-             " · Contact: mdiaz@inmegen.gob.mx"],
+             " · Contact: ehernandez@inmegen.gob.mx / mdiazc161@unam.edu.mx"],
             className="text-center text-muted small mt-2 mb-1",
         )),
     ]),
