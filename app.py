@@ -277,12 +277,13 @@ sidebar = dbc.Card([
         dcc.Dropdown(
             id="ct-filter",
             options=[{"label": ct, "value": ct} for ct in ALL_CELL_TYPES],
-            value=list(ALL_CELL_TYPES),
+            value=[],
             multi=True,
             placeholder="All cell types…",
             clearable=True,
             className="mb-3",
         ),
+        dcc.Interval(id="load-interval", interval=100, max_intervals=1),  # Trigger on load
 
         # Condition
         html.Label("Condition", className="small fw-semibold"),
@@ -440,19 +441,24 @@ dash_app.layout = dbc.Container([
 @dash_app.callback(
     Output("umap-plot",      "figure"),
     Output("filtered-index", "data"),
+    Output("ct-filter", "value"),
     Input("ct-filter",        "value"),
     Input("condition-filter", "value"),
     Input("color-by",         "value"),
     Input("gene-search",      "value"),
-    prevent_initial_call=False,
+    Input("load-interval",    "n_intervals"),
 )
-def update_umap(cell_types, condition, color_by, gene):
-    if not cell_types:
-        cell_types = ALL_CELL_TYPES
+def update_umap(cell_types, condition, color_by, gene, n_intervals):
+    # On initial load (n_intervals=1), set cell_types to all if empty
+    if n_intervals == 1 and not cell_types:
+        cell_types = list(ALL_CELL_TYPES)
+    elif not cell_types:
+        cell_types = list(ALL_CELL_TYPES)
+
     conditions = None if condition == "all" else [condition]
     df = subset_metadata(cell_types, conditions)
     fig = build_umap_figure(df, color_by=color_by, gene=gene)
-    return fig, df.index.tolist()
+    return fig, df.index.tolist(), cell_types
 
 
 # ── 2. Metadata panel ─────────────────────────────────────────────────────────
