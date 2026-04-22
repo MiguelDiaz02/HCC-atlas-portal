@@ -4,7 +4,7 @@ services:
     runtime: python
     pythonVersion: 3.11.0
     buildCommand: pip install --upgrade setuptools && pip install --only-binary :all: -r requirements.txt
-    startCommand: gunicorn app:server --bind 0.0.0.0:$PORT --workers 1 --timeout 120
+    startCommand: gunicorn app:server --bind 0.0.0.0:$PORT --workers 1 --timeout 300 --access-logfile -
     disk:
       name: portal-data
       mountPath: /opt/render/project/src/data
