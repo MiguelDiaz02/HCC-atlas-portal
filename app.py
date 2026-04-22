@@ -254,13 +254,13 @@ def marker_sidebar_table(cell_types_sel):
 # ─────────────────────────────────────────────────────────────────────────────
 # APP LAYOUT
 # ─────────────────────────────────────────────────────────────────────────────
-app = dash.Dash(
+dash_app = dash.Dash(
     __name__,
     external_stylesheets=[dbc.themes.FLATLY],
     title="HCC scRNA-seq Atlas",
     meta_tags=[{"name": "viewport", "content": "width=device-width, initial-scale=1"}],
 )
-server = app.server  # for gunicorn
+app = dash_app.server  # Flask WSGI app for gunicorn/Render
 
 # Health-check endpoint — required by Render.com to confirm the service is up
 @server.route("/health")
@@ -387,7 +387,7 @@ main_content = dbc.Card([
 ], className="shadow-sm border-0")
 
 # ── App layout ────────────────────────────────────────────────────────────────
-app.layout = dbc.Container([
+dash_app.layout = dbc.Container([
 
     # Header
     dbc.Row([
@@ -437,7 +437,7 @@ app.layout = dbc.Container([
 # ─────────────────────────────────────────────────────────────────────────────
 
 # ── 1. UMAP + stored filter index ─────────────────────────────────────────────
-@app.callback(
+@dash_app.callback(
     Output("umap-plot",      "figure"),
     Output("filtered-index", "data"),
     Input("ct-filter",        "value"),
@@ -453,7 +453,7 @@ def update_umap(cell_types, condition, color_by, gene):
 
 
 # ── 2. Metadata panel ─────────────────────────────────────────────────────────
-@app.callback(
+@dash_app.callback(
     Output("metadata-display", "children"),
     Input("filtered-index", "data"),
 )
@@ -491,7 +491,7 @@ def update_metadata(cell_ids):
 
 
 # ── 3. Top-10 markers sidebar ─────────────────────────────────────────────────
-@app.callback(
+@dash_app.callback(
     Output("markers-display", "children"),
     Input("ct-filter", "value"),
 )
@@ -500,7 +500,7 @@ def update_markers(cell_types):
 
 
 # ── 4. Gene Expression tab ───────────────────────────────────────────────────
-@app.callback(
+@dash_app.callback(
     Output("gene-expr-display", "children"),
     Input("gene-search",    "value"),
     Input("umap-plot",      "clickData"),
@@ -562,7 +562,7 @@ def update_gene_expr(gene, click_data, cell_ids):
 
 
 # ── 5. Cell Type Summary tab ──────────────────────────────────────────────────
-@app.callback(
+@dash_app.callback(
     Output("celltype-summary", "children"),
     Input("filtered-index",    "data"),
 )
@@ -628,7 +628,7 @@ def update_ct_summary(cell_ids):
 
 
 # ── 6. Download filtered metadata ────────────────────────────────────────────
-@app.callback(
+@dash_app.callback(
     Output("download-metadata", "data"),
     Input("btn-download", "n_clicks"),
     State("filtered-index", "data"),
@@ -645,4 +645,4 @@ def download_metadata(n, cell_ids):
 if __name__ == "__main__":
     debug = os.environ.get("DASH_DEBUG", "false").lower() == "true"
     port  = int(os.environ.get("PORT", 8050))
-    app.run(debug=debug, host="0.0.0.0", port=port)
+    dash_app.run(debug=debug, host="0.0.0.0", port=port)
