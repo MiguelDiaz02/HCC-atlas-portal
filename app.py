@@ -277,7 +277,7 @@ sidebar = dbc.Card([
         dcc.Dropdown(
             id="ct-filter",
             options=[{"label": ct, "value": ct} for ct in ALL_CELL_TYPES],
-            value=ALL_CELL_TYPES,
+            value=list(ALL_CELL_TYPES),
             multi=True,
             placeholder="All cell types…",
             clearable=True,
@@ -444,10 +444,13 @@ dash_app.layout = dbc.Container([
     Input("condition-filter", "value"),
     Input("color-by",         "value"),
     Input("gene-search",      "value"),
+    prevent_initial_call=False,
 )
 def update_umap(cell_types, condition, color_by, gene):
+    if not cell_types:
+        cell_types = ALL_CELL_TYPES
     conditions = None if condition == "all" else [condition]
-    df = subset_metadata(cell_types or None, conditions)
+    df = subset_metadata(cell_types, conditions)
     fig = build_umap_figure(df, color_by=color_by, gene=gene)
     return fig, df.index.tolist()
 
