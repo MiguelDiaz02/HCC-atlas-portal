@@ -263,7 +263,7 @@ dash_app = dash.Dash(
 app = dash_app.server  # Flask WSGI app for gunicorn/Render
 
 # Health-check endpoint — required by Render.com to confirm the service is up
-@server.route("/health")
+@app.route("/health")
 def health():
     return {"status": "ok", "cells": TOTAL_CELLS}, 200
 
